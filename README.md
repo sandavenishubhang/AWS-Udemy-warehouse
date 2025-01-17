@@ -15,6 +15,18 @@ To extract meaningful insights from Udemy course data, including instructor reve
 - **Tableau**: For creating interactive and insightful dashboards.
 - **Jupyter Notebook**: For exploratory data analysis and pipeline development.
 
+### 🏗️ Data Warehouse Architecture
+
+### Overview
+The data warehouse architecture for this project consists of the following key components:
+1. **Raw Data Ingestion**: Data is uploaded to AWS S3.
+2. **ETL Pipeline**: The ETL process cleanses, transforms, and loads data into a structured format.
+3. **Athena Query Engine**: AWS Athena is used to query the data for analysis.
+4. **Visualization**: Tableau dashboards are used to present the insights.
+
+### Architecture Diagram
+![Data Warehouse Architecture](ScreenShots/Screenshot%202025-01-16%20at%208.24.40%E2%80%AFPM.png)
+
 ### **Key Features**
 1. **ETL Pipeline**:
    - Extracts raw data from source files.
@@ -36,28 +48,28 @@ To extract meaningful insights from Udemy course data, including instructor reve
 ### **1. Engagement Analysis**
 - **Insight**: Highly rated courses have higher engagement and retention rates.
 - **Visualization**:
-![Engagement Analysis](visualisations/Screenshot%202025-01-16%20at%208.24.03%20PM.png)
+![Engagement Analysis](visualisations/Screenshot%202025-01-16%20at%208.24.10%E2%80%AFPM.png)
 
 ### **2. Pricing and Revenue Distribution**
 - **Insight**: Premium courses contribute significantly to revenue, while free courses drive engagement.
 - **Visualization**:
-![Pricing and Revenue Distribution](visualisations/Screenshot%202025-01-16%20at%208.24.20%20PM.png)
+![Pricing and Revenue Distribution](visualisations/Screenshot%202025-01-16%20at%208.23.50%E2%80%AFPM.png)
 
 ### **3. Instructor Revenue Concentration**
 - **Insight**: The top 5 instructors generate over 40% of total revenue.
 - **Visualization**:
-![Instructor Revenue Concentration](visualisations/Screenshot%202025-01-16%20at%208.24.10%20PM.png)
+![Instructor Revenue Concentration](visualisations/Screenshot%202025-01-16%20at%208.24.03%E2%80%AFPM.png)
 
 ### **4. Course Quality Ratings**
 - **Insight**: Courses rated above 4.5 show better student engagement and revenue performance.
 - **Visualization**:
-![Course Quality Ratings](visualisations/Screenshot%202025-01-16%20at%208.23.50%20PM.png)
+![Course Quality Ratings](visualisations/Screenshot%202025-01-16%20at%208.24.20%E2%80%AFPM.png)
 
 ### **5. Overall Dashboard**
 - **Insight**: A consolidated view of engagement, pricing, instructor revenue, and course ratings.
 - **Visualization**:
-![Overall Dashboard](Screenshots/Dashboard%201.png)
-
+![Overall Dashboard](ScreenShots/Dashboard%201.png)
+[View Tableau Dashboard](https://public.tableau.com/app/profile/shubhang.yadav.sandaveni/viz/UdemyDatawarehouse/Dashboard1)
 ---
 
 ## 📂 Project Structure
