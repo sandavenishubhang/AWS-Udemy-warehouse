@@ -13,7 +13,7 @@ To extract meaningful insights from Udemy course data, including instructor reve
 - **AWS S3 & Athena**: For data storage and querying.
 - **Python**: To build and automate the ETL pipeline.
 - **Tableau**: For creating interactive and insightful dashboards.
-- **Jupyter Notebook**: For exploratory data analysis and pipeline development.
+- **AWS Glue**: For exploratory data analysis and pipeline development.
 
 ### 🏗️ Data Warehouse Architecture
 
